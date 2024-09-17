@@ -46,12 +46,12 @@
 }
 
 .container-button{
-    margin:10px 0 10px 10px;
+    margin-left: 15px;
     background-color: white;
 }
 
 .button{
-    border-radius: 7%;
+    border-radius: 8px;
     border-color: rgb(128, 125, 125,0.7);
     width: fit-content;
     padding: 7px 15px;
@@ -61,20 +61,33 @@
     cursor: pointer;
 }
 
-.bottone:hover{
+.button:hover{
     background-color: rgb(87, 87, 158);
     color: white;
 }
 
 .badge{
-    padding: 8px 15px;
-    border-radius: 7%;
+    padding: 3px 7px;
+    border-radius: 15px;
     color: white;
+    font-size: 10px;
+    font-family: Helvetica;
 }
 
 .badge-red{
     background-color: red;
 }
+.badge-yellow{
+    background-color: yellow;
+}
+.badge-green{
+    background-color: green;
+}
+
+.badge-blue{
+    background-color: blue;
+}
+
 /* Tags */
 ul{
     background-color: white;
@@ -83,6 +96,7 @@ ul{
 li{
     list-style-type: none;
     background-color: white;
+    margin: 10px 0;
 }
 
 b{
