@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: rgb(233, 233, 233);
+    background-color: rgba(240, 240, 240, 0.74);
     background-origin: border-box;
 }
 
@@ -35,22 +35,40 @@
 }
 
 
-.container{
+.container-lista{
     margin: 40px 20px;
     background-color: white;
+    font-family: Helvetica;
 }
 
 .container-bottone{
-    margin: 10px 0 10px 10px;
+    margin:10px 0 10px 10px;
     background-color: white;
 }
 
 .bottone{
     border-radius: 15%;
+    border-color: rgb(128, 125, 125,0.7);
     height: 35px;
     width: fit-content;
     padding: 0 5px;
     background-color: white;
+    color: rgb(128, 125, 125,0.7);
+    cursor: pointer;
+}
+
+.bottone:hover{
+    background-color: rgb(87, 87, 158);
+    color: white;
+}
+
+.icona{
+    height:25px;
+    width: fit-content;
+    padding: 3px 5px;
+    border-radius: 30%;
+    background-color: rgb(219, 19, 19);
+    color: white;
 }
 /* Tags */
 ul{
@@ -58,5 +76,9 @@ ul{
 }
 
 li{
+    background-color: white;
+}
+
+b{
     background-color: white;
 }
