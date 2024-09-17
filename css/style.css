@@ -4,3 +4,23 @@
     padding: 0;
     margin: 0;
 }
+
+/* Classi */
+
+.logo{
+    height: 60px;
+}
+
+.container{
+    padding-bottom: 15px;
+}
+
+.inlinea{
+ display: inline;
+}
+
+.mainpage{
+    align-self: center;
+    background-color: grey;
+    background-size: 1000px;
+}
