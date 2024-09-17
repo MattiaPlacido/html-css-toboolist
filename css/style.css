@@ -10,7 +10,7 @@
 /* Classi */
 
 
-.inlinea{
+.inline{
  display: inline;
  background-color: white;
 }
@@ -33,25 +33,29 @@
     height: 70px;
     background-color: white;
 }
+.logo-small{
+    height: 13px;
+    background-color: white;
+}
 
 
-.container-lista{
+.container-list{
     margin: 40px 20px;
     background-color: white;
     font-family: Helvetica;
 }
 
-.container-bottone{
+.container-button{
     margin:10px 0 10px 10px;
     background-color: white;
 }
 
-.bottone{
-    border-radius: 15%;
+.button{
+    border-radius: 7%;
     border-color: rgb(128, 125, 125,0.7);
-    height: 35px;
     width: fit-content;
-    padding: 0 5px;
+    padding: 7px 15px;
+    margin: 10px 0;
     background-color: white;
     color: rgb(128, 125, 125,0.7);
     cursor: pointer;
@@ -62,13 +66,14 @@
     color: white;
 }
 
-.icona{
-    height:25px;
-    width: fit-content;
-    padding: 3px 5px;
-    border-radius: 30%;
-    background-color: rgb(219, 19, 19);
+.badge{
+    padding: 8px 15px;
+    border-radius: 7%;
     color: white;
+}
+
+.badge-red{
+    background-color: red;
 }
 /* Tags */
 ul{
@@ -76,6 +81,7 @@ ul{
 }
 
 li{
+    list-style-type: none;
     background-color: white;
 }
 
